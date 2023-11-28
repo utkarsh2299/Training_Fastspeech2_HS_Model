@@ -1,0 +1,20 @@
+################
+generate_phone_text.sh
+###############
+
+Converts character based text to phone based text. Look at the comments in the code for more information.
+
+Execute the script as:
+bash generate_phone_text.sh
+
+################
+phonify_words.sh
+###############
+Script to generate lexicon (phone-level transcriptions) for words in Indian languages
+
+Input: text containing list of words (note that no special characters have to be present along with the words)
+Outputs: (1) lexicon_cls: dictionary in common label set (2) lexicon_phone: dictionary wherein each CLS label is represented by a single UTF-8 character
+
+Execute the script as:
+bash phonify_words.sh <unique_words>
+Ex: bash phonify_words.sh unique_words
