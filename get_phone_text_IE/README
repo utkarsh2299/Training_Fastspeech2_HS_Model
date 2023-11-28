@@ -1,0 +1,9 @@
+################
+generate_phone_text.sh
+###############
+
+Converts character based text to phone based text. Look at the comments in the code for more information.
+
+Execute the script as:
+bash generate_phone_text.sh
+
