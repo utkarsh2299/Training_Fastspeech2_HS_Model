@@ -544,7 +544,7 @@ if ! "${skip_data_prep}"; then
 else
     log "Skip the stages for data preparation"
 fi
-exit 0
+#exit 0
 # ========================== Data preparation is done here. ==========================
 
 
@@ -685,7 +685,7 @@ if ! "${skip_train}"; then
             >"${tts_stats_dir}/valid/text_shape.${token_type}"
     fi
 
-exit 0
+#exit 0
 
     if [ ${stage} -le 6 ] && [ ${stop_stage} -ge 6 ]; then
         _train_dir="${data_feats}/${train_set}"
@@ -899,7 +899,7 @@ exit 0
 else
     log "Skip training stages"
 fi
-exit 0
+#exit 0
 
 if [ -n "${download_model}" ]; then
     log "Use ${download_model} for decoding and evaluation"
@@ -1071,7 +1071,7 @@ if ! "${skip_eval}"; then
 else
     log "Skip the evaluation stages"
 fi
-exit 0
+#exit 0
 
 packed_model="${tts_exp}/${tts_exp##*/}_${inference_model%.*}.zip"
 if [ -z "${download_model}" ]; then
