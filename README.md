@@ -29,7 +29,7 @@ Download the language data from [IIT Madras TTS Database](https://www.iitm.ac.in
 1. To check GPU availability: `nvidia-smi`
 2. Run the training script: `bash run.sh`
    - **Note 1:** Try to execute the script stage by stage, as mentioned in `tts.sh` (usually line numbers 29-30) as it'll be helpful in finding the errors.
-   - **Note 1:** Run the training part using the screen utuility of linux.
+   - **Note 2:** Run the training part using the screen utuility of linux.
 
 ## Synthesis of unseen text
 
