@@ -26,7 +26,7 @@ inference_config=conf/tuning/decode_fastspeech.yaml
 #inference_config=conf/decode.yaml
 
 test_folder=test_folder
-model_path=/tts1/tts1/anusha/FS2_with_HS_for_all_lang/Tamil_with_voicing/IE/male/tts_v1_FS2_HS/models
+model_path=/path/to/models
 
 # g2p=g2p_en # Include word separator
 g2p=g2p_en_no_space # Include no word separator
