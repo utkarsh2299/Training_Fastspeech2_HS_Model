@@ -33,7 +33,7 @@ Download the language data from [IIT Madras TTS Database](https://www.iitm.ac.in
 
 ## Synthesis of unseen text
 
-Follow the steps below to set up the environment and perform text synthesis.
+After the completion of training (till stage 7), Follow the steps below to set up the environment and perform text synthesis.
 
 ## Preparation
 
