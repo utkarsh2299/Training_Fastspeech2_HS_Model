@@ -30,8 +30,43 @@ Download the language data from [IIT Madras TTS Database](https://www.iitm.ac.in
 2. Run the training script: `bash run.sh`
    - **Note:** Execute the script stage by stage, as mentioned in `tts.sh` (usually line numbers 29-30).
 
+## Synthesis of unseen text
+
+Follow the steps below to set up the environment and perform text synthesis.
+
+## Preparation
+
+1. Create a "model" folder:
+
+    ```bash
+    mkdir model
+    ```
+
+2. Copy the following files to the "model" folder:
+
+   - `dump/raw/eval1/feats_type` (or use the one from train/validation)
+   - `exp/tts_stats_raw_char_None/train/feats_stats.npz`
+   - `exp/tts_train_raw_char_None/train.loss.ave.pth` (you can try other models as well, modify accordingly in synthesis scripts)
+   - `exp/tts_train_raw_char_None/config.yaml` (modify `stats_file` to `model/feats_stats.npz` or provide the full path to the "model" folder)
+
+3. Create a "test_folder" containing the text for synthesis in Kaldi format, following the pattern used during training.
+
+4. Prepare `run_synthesis.sh` and `tts_synthesis.sh`. In `run_synthesis.sh`, set the path to `test_folder`, `model_path`, and modify `$inference_config`.
+
+5. Ensure that the feature extraction part in `tts_synthesis.sh` matches the configuration used during training.
+
+## Text Synthesis
+
+Run the following command to synthesize text:
+
+```bash
+bash run_synthesis.sh
+```
+
+(The output files will be located in exp/tts_train_raw_char_None/decode_train.loss.ave/test_folder.)
+
 ## Wiki Reference
 
 For more detailed information, troubleshooting, and tips, please consult the [Wiki section](https://github.com/utkarsh2299/Train_FastSpeech2_HS/wiki) of the repository.
 
-Feel free to contribute, report issues, or provide feedback to enhance the training process and model performance. Happy training!
+Happy training!
