@@ -8,7 +8,7 @@ For finer details and comprehensive information, please refer to the [Wiki secti
 
 ## Data
 
-Download the language data from [IIT Madras TTS Database](https://www.iitm.ac.in/donlab/tts/database.php), which includes a special corpus of Indian languages. The dataset comprises 10,000+ spoken sentences/utterances in both mono and English, recorded by male and female native speakers. The speech waveform files are available in .wav format, accompanied by corresponding text.
+Download the language data from [IIT Madras TTS Database](https://www.iitm.ac.in/donlab/tts/database.php), which includes a special corpus of 13 Indian languages. The dataset comprises 10,000+ spoken sentences/utterances in both mono and English, recorded by male and female native speakers. The speech waveform files are available in .wav format, accompanied by corresponding text.
 
 ## Installation
 
