@@ -13,7 +13,7 @@ Download the language data from [IIT Madras TTS Database](https://www.iitm.ac.in
 ## Installation
 
 1. Install the [Espnet toolkit](https://espnet.github.io/espnet/installation.html).
-2. After installation, update the espnet path in `path.sh`.
+2. After installation, update the espnet path and kaldi path in `path.sh`.
 
 ## Configuration
 
