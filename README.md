@@ -1,4 +1,4 @@
-#Training Receipe for Fastspeech_2 using HS:
+# Training Receipe for Fastspeech_2 using HS:
 
 We have open sourced the receipe for training the language models using the Fastspeech2 with Hybrid segmentation.
 
