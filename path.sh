@@ -1,5 +1,5 @@
-MAIN_ROOT=/common/software/espnet_25th_feb_2022
-KALDI_ROOT=$MAIN_ROOT/tools/kaldi
+MAIN_ROOT=/path/to/Espnet/Folder
+KALDI_ROOT=$MAIN_ROOT/path/to/kaldi/folder/in/Espnet
 
 export PATH=$PWD/utils/:$KALDI_ROOT/tools/openfst/bin:$PATH
 [ ! -f $KALDI_ROOT/tools/config/common_path.sh ] && echo >&2 "The standard file $KALDI_ROOT/tools/config/common_path.sh is not present -> Exit!" && exit 1
