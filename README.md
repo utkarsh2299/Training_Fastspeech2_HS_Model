@@ -32,7 +32,7 @@ We are using the Hybrid segmentation (lab grown aligner) for getting the duratio
     - Adjust the waveform to 48 kHz if needed (double the values at `fs`, `n_fft`, and `n_shift`).
     - Make necessary changes to the script according to your requirements.
 
-3. Get the duration 
+3. Make changes to the duration_info folder (See [Wiki section](https://github.com/utkarsh2299/Train_FastSpeech2_HS/wiki)) 
 4. Update configurations in `tts.sh` where necessary.(Important: Add the duration file and Point to _duration_info_ path for the _teacher_dumpdir_ variable )
 
 ## Training
