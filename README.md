@@ -10,6 +10,14 @@ For finer details and comprehensive information, please refer to the [Wiki secti
 
 Download the language data from [IIT Madras TTS Database](https://www.iitm.ac.in/donlab/tts/database.php), which includes a special corpus of 13 Indian languages. The dataset comprises 10,000+ spoken sentences/utterances in both mono and English, recorded by male and female native speakers. The speech waveform files are available in .wav format, accompanied by corresponding text.
 
+### Duration info of the text data
+In FastSpeech2, which is a neural TTS model, the duration file is used to represent the durations of phonemes in the input text. During the training of FastSpeech2, the model learns to predict these durations as part of the overall sequence-to-sequence training.  <br>
+
+We are using the Hybrid segmentation (lab grown aligner) for getting the duration files. Another popular forced aligner is the Montreal Forced Aligner (MFA) which can be installed from [here](https://montreal-forced-aligner.readthedocs.io/en/latest/getting_started.html). 
+
+<ins> We have provided the Training TEXT and respective duration info of each language model. </ins>
+
+
 ## Installation
 
 1. Install the [Espnet toolkit](https://espnet.github.io/espnet/installation.html).
@@ -22,7 +30,8 @@ Download the language data from [IIT Madras TTS Database](https://www.iitm.ac.in
     - Adjust the waveform to 48 kHz if needed (double the values at `fs`, `n_fft`, and `n_shift`).
     - Make necessary changes to the script according to your requirements.
 
-3. Update configurations in `tts.sh` where necessary.(Important: Add the duration file and Point to _duration_info_ path for the _teacher_dumpdir_ variable )
+3. Get the duration 
+4. Update configurations in `tts.sh` where necessary.(Important: Add the duration file and Point to _duration_info_ path for the _teacher_dumpdir_ variable )
 
 ## Training
 
