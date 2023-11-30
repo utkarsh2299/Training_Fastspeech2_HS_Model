@@ -14,7 +14,7 @@ Download the language data from [IIT Madras TTS Database](https://www.iitm.ac.in
 ### Duration info of the text data
 In FastSpeech2, which is a neural TTS model, the duration file is used to represent the durations of phonemes in the input text. During the training of FastSpeech2, the model learns to predict these durations as part of the overall sequence-to-sequence training.  <br>
 
-We are using the Hybrid segmentation (lab grown aligner) for getting the duration files. Another popular forced aligner is the Montreal Forced Aligner (MFA) which can be installed from [here](https://montreal-forced-aligner.readthedocs.io/en/latest/getting_started.html). [github](https://github.com/MontrealCorpusTools/Montreal-Forced-Aligner).
+We are using the Hybrid segmentation (lab grown aligner) for getting the duration files. Another popular forced aligner is the Montreal Forced Aligner (MFA) which can be installed from [here](https://montreal-forced-aligner.readthedocs.io/en/latest/getting_started.html). [Refer github](https://github.com/MontrealCorpusTools/Montreal-Forced-Aligner).
 
 <ins> **We have already provided the Training TEXT and respective duration info of each language model.** </ins>
 
