@@ -15,7 +15,7 @@ In FastSpeech2, which is a neural TTS model, the duration file is used to repres
 
 We are using the Hybrid segmentation (lab grown aligner) for getting the duration files. Another popular forced aligner is the Montreal Forced Aligner (MFA) which can be installed from [here](https://montreal-forced-aligner.readthedocs.io/en/latest/getting_started.html). 
 
-<ins> We have provided the Training TEXT and respective duration info of each language model. </ins>
+<ins> **We have already provided the Training TEXT and respective duration info of each language model.** </ins>
 
 
 ## Installation
