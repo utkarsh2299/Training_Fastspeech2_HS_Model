@@ -6,6 +6,7 @@ This repository contains a recipe for training FastSpeech2 with Hybrid Segmentat
 
 For finer details and comprehensive information, please refer to the [Wiki section](https://github.com/utkarsh2299/Train_FastSpeech2_HS/wiki) of the repository.
 
+<ins>**We are providing the training text and duration info. User can use their data and can generate their own duration info. Se below:**</ins>    
 ## Data
 
 Download the language data from [IIT Madras TTS Database](https://www.iitm.ac.in/donlab/tts/database.php), which includes a special corpus of 13 Indian languages. The dataset comprises 10,000+ spoken sentences/utterances in both mono and English, recorded by male and female native speakers. The speech waveform files are available in .wav format, accompanied by corresponding text.
