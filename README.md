@@ -4,7 +4,7 @@
 
 This repository contains a recipe for training FastSpeech2 with Hybrid Segmentation (HS), a state-of-the-art text-to-speech (TTS) model. The training utilizes the Espnet toolkit and is tailored for the Indian languages, covering 13 major languages of India.
 
-For finer details and comprehensive information, please refer to the [Wiki section](https://github.com/utkarsh2299/Train_FastSpeech2_HS/wiki) of the repository.
+For finer details and comprehensive information, please refer to the [Wiki section](https://github.com/smtiitm/Training_Fastspeech2_HS_Model/wiki) of the repository.
 
 <ins>**We are providing the training text and duration info for each language. User can use their data and can generate their own duration info. See below:**</ins>    
 ## Data
@@ -25,14 +25,14 @@ We are using the Hybrid segmentation (lab grown aligner) for getting the duratio
 2. After installation, update the espnet path and kaldi path in `path.sh`.
 
 ## Configuration 
->Please follow [Wiki section](https://github.com/utkarsh2299/Train_FastSpeech2_HS/wiki) for more details of each file.
+>Please follow [Wiki section](https://github.com/smtiitm/Training_Fastspeech2_HS_Model/wiki) for more details of each file.
 
 1. In `local/data.sh`, adjust dev and eval set divisions (line numbers 79-82) based on the data for training the model. 
 2. Modify the `run.sh` file:
     - Adjust the waveform to 48 kHz if needed (double the values at `fs`, `n_fft`, and `n_shift`).
     - Make necessary changes to the script according to your requirements.
 
-3. Make changes to the duration_info folder (See [Wiki section](https://github.com/utkarsh2299/Train_FastSpeech2_HS/wiki)) 
+3. Make changes to the duration_info folder (See [Wiki section](https://github.com/smtiitm/Training_Fastspeech2_HS_Model/wiki)) 
 4. Update configurations in `tts.sh` where necessary.(Important: Add the duration file and Point to _duration_info_ path for the _teacher_dumpdir_ variable )
 
 ## Training
