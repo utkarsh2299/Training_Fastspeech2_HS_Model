@@ -24,10 +24,11 @@ We are using the Hybrid segmentation (lab grown aligner) for getting the duratio
 1. Install the [Espnet toolkit](https://espnet.github.io/espnet/installation.html).
 2. After installation, update the espnet path and kaldi path in `path.sh`.
 
-## Configuration <br>
-> Please follow [Wiki section](https://github.com/utkarsh2299/Train_FastSpeech2_HS/wiki) for more details of each file.
+## Configuration 
 <br>
-1. In `local/data.sh`, adjust dev and eval set divisions (line numbers 79-82) based on the data for training the model.
+> Please follow [Wiki section](https://github.com/utkarsh2299/Train_FastSpeech2_HS/wiki) for more details of each file.
+
+1. In `local/data.sh`, adjust dev and eval set divisions (line numbers 79-82) based on the data for training the model. 
 2. Modify the `run.sh` file:
     - Adjust the waveform to 48 kHz if needed (double the values at `fs`, `n_fft`, and `n_shift`).
     - Make necessary changes to the script according to your requirements.
