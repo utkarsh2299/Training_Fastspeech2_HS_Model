@@ -25,7 +25,6 @@ We are using the Hybrid segmentation (lab grown aligner) for getting the duratio
 2. After installation, update the espnet path and kaldi path in `path.sh`.
 
 ## Configuration 
-<br>
 >Please follow [Wiki section](https://github.com/utkarsh2299/Train_FastSpeech2_HS/wiki) for more details of each file.
 
 1. In `local/data.sh`, adjust dev and eval set divisions (line numbers 79-82) based on the data for training the model. 
