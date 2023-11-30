@@ -22,7 +22,7 @@ Download the language data from [IIT Madras TTS Database](https://www.iitm.ac.in
     - Adjust the waveform to 48 kHz if needed (double the values at `fs`, `n_fft`, and `n_shift`).
     - Make necessary changes to the script according to your requirements.
 
-3. Update configurations in `tts.sh` where necessary.
+3. Update configurations in `tts.sh` where necessary.(Important: Add the duration file and Point to _duration_info_ path for the _teacher_dumpdir_ variable )
 
 ## Training
 
