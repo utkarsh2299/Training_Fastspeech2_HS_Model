@@ -82,3 +82,28 @@ bash run_synthesis.sh
 For more detailed information, troubleshooting, and tips, please consult the [Wiki section](https://github.com/utkarsh2299/Train_FastSpeech2_HS/wiki) of the repository.
 
 Happy training!
+
+### Citation
+If you use this Fastspeech2 Model in your research or work, please consider citing:
+
+“
+COPYRIGHT
+2023, Speech Technology Consortium,
+Bhashini, MeiTY and by Hema A Murthy & S Umesh,
+DEPARTMENT OF COMPUTER SCIENCE AND ENGINEERING
+and
+ELECTRICAL ENGINEERING,
+IIT MADRAS. ALL RIGHTS RESERVED "
+
+
+
+Shield: [![CC BY 4.0][cc-by-shield]][cc-by]
+
+This work is licensed under a
+[Creative Commons Attribution 4.0 International License][cc-by].
+
+[![CC BY 4.0][cc-by-image]][cc-by]
+
+[cc-by]: http://creativecommons.org/licenses/by/4.0/
+[cc-by-image]: https://i.creativecommons.org/l/by/4.0/88x31.png
+[cc-by-shield]: https://img.shields.io/badge/License-CC%20BY%204.0-lightgrey.svg
