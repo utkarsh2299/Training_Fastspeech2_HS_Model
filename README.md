@@ -31,7 +31,7 @@ We are using the Hybrid segmentation (lab grown aligner) for getting the duratio
 2. Modify the `run.sh` file:
     - Adjust the waveform to 48 kHz if needed (double the values at `fs`, `n_fft`, and `n_shift`).
     - Make necessary changes to the script according to your requirements.
-3. Check mismatch between number of frames for each wave file and respective duration file. Remove those files generated as output:
+3. Check mismatch between number of frames for each wave file and respective duration file. Remove those files generated as output (Make relevant changes to the file before running):
 
    `perl check_mismatch_across_durationFile_espnet.pl`
 
