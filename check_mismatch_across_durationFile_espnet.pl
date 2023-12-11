@@ -14,11 +14,11 @@ use POSIX qw/ceil/;
 use List::Util qw(sum);
 
 #Path to duration file
-$durFile = "duration_file_HS";
+$durFile = "duration_file";
 #$durFile = "duration_info/dur_temp";
 
 # Path to wav folder
-$wavPath = "/tts/database/unzipped_folders/networks_tts_arun/arun/DATABASE/Hindi/male/english/wav/";
+$wavPath = "/path/to/the/wav/files/";
 
 # Name of list of mismatched files
 $mismatchFile = "mismatched_espnet_dur_files";
