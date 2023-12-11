@@ -89,10 +89,13 @@ If you use this Fastspeech2 Model in your research or work, please consider citi
 “
 COPYRIGHT
 2023, Speech Technology Consortium,
+
 Bhashini, MeiTY and by Hema A Murthy & S Umesh,
+
 DEPARTMENT OF COMPUTER SCIENCE AND ENGINEERING
 and
 ELECTRICAL ENGINEERING,
+
 IIT MADRAS. ALL RIGHTS RESERVED "
 
 
