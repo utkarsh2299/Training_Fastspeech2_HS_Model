@@ -77,7 +77,7 @@ Run the following command to synthesize text:
 ```bash
 bash run_synthesis.sh
 ```
-
+OR you could use the inferencing file available at [Fastspeech2 Inferencing](https://github.com/smtiitm/Fastspeech2_HS)
 (The output files will be located in exp/tts_train_raw_char_None/decode_train.loss.ave/test_folder.)
 
 ## Wiki Reference
