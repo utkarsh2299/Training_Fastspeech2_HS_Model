@@ -31,9 +31,12 @@ We are using the Hybrid segmentation (lab grown aligner) for getting the duratio
 2. Modify the `run.sh` file:
     - Adjust the waveform to 48 kHz if needed (double the values at `fs`, `n_fft`, and `n_shift`).
     - Make necessary changes to the script according to your requirements.
+3. Check mismatch between number of frames for each wave file and respective duration file. Remove those files generated as output:
 
-3. Make changes to the duration_info folder (See [Wiki section](https://github.com/smtiitm/Training_Fastspeech2_HS_Model/wiki)) 
-4. Update configurations in `tts.sh` where necessary.(Important: Add the duration file and Point to _duration_info_ path for the _teacher_dumpdir_ variable )
+   'perl check_mismatch_across_durationFile_espnet.pl'
+
+4. Make changes to the duration_info folder (See [Wiki section](https://github.com/smtiitm/Training_Fastspeech2_HS_Model/wiki)) 
+5. Update configurations in `tts.sh` where necessary.(Important: Add the duration file and Point to _duration_info_ path for the _teacher_dumpdir_ variable )
 
 ## Training
 
